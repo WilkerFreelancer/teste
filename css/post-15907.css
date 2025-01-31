@@ -353,7 +353,7 @@ line-height: normal;}
 
 /* Cor do botão */
 .btn .elementor-button {
-    background: linear-gradient(90deg, #1A38FB 0%, #4586FF 100%);
+    background: rgb(7, 129, 211) !important;
     box-shadow: 0px -27px 80px 0px rgba(26, 56, 251, 0.22), 0px -9.855px 29.201px 0px rgba(26, 56, 251, 0.15), 0px -4.785px 14.177px 0px rgba(26, 56, 251, 0.12), 0px -2.346px 6.95px 0px rgba(26, 56, 251, 0.10), 0px -0.927px 2.748px 0px rgba(26, 56, 251, 0.07);
     overflow: hidden;
     transform: translate(0%, 0%);
@@ -361,7 +361,9 @@ line-height: normal;}
     align-self: stretch !important;
     transition: .5s all;
 }
-
+.elementor-15907 .elementor-element.elementor-element-baffac5, .elementor-15907 .elementor-element.elementor-element-b4f7a90, .elementor-15907 .elementor-element.elementor-element-9f6db3f {
+    background: linear-gradient(180deg, #1a1a1a 0%, #00b7ff 100%);
+}
 /* Cor do botão no Hover */
 .btn:hover .elementor-button {
     background: linear-gradient(90deg, #1AFB65 0%, #0DD0C6 100%);
@@ -519,7 +521,8 @@ box-shadow: -9px -9px 15.4px 0px #17171F, 6px 11px 15.4px 0px #0E0E12;}
 
 
 .testemunho{border-radius: 32px;
-background: radial-gradient(70.1% 91.75% at 66.77% 95.14%, #1D1D26 0%, #121217 100%);
+    background: radial-gradient(70.1% 91.75% at 66.77% 95.14%, #2b2b8f 0%, #121217 100%);
+    box-shadow: -9px -9px 15.4px 0px #17171F, 6px 11px 15.4px 0px #0E0E12;
 box-shadow: -9px -9px 15.4px 0px #17171F, 6px 11px 15.4px 0px #0E0E12;}/* End custom CSS */
 /* Start Custom Fonts CSS */@font-face {
 	font-family: 'MADEOuterSans';
